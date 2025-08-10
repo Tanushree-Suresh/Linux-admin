@@ -1,0 +1,7 @@
+# System files
+.DS_Store
+*.log
+error.log
+
+# Local configuration files
+credentials.txt
