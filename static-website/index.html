@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to My Azure Server</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This static website is served by an Apache server on an Azure VM.</p>
+</body>
+</html>```
+Save and close the file (`CTRL+X`, then `Y`, then `Enter`).
+
+**4. Adjust Permissions**
+
+Ensure the web server has the correct permissions.
+
+```bash
+sudo chown -R www-data:www-data /var/www/html
+sudo chmod -R 755 /var/www/html
